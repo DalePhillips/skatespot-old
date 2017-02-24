@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:300,400,600,700|Roboto:300,400,500,700');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+$white: white;
+$black: black;
+
+$primary-orange: #fd4f00;
+$secondary-orange: #f43400;
+
+$primary-mustard: #f6a704;
+$primary-blue: #8bc7ea;
+
+$bodyFont: 'Roboto', sans-serif;
+$headerFont: 'Libre Franklin', sans-serif;
+
+html, body {
+	height: 100%;
+	line-height: 1.5;
+	font-size: 16px;
+	font-family: $bodyFont;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: $headerFont;
+}
+
+.container {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.top {
+	margin-top: 1em;
+	.logo {
+		img {
+			width: 100px;
+		}
+	}
+}
+
+.home-container {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+
+	.left {
+		width: 66.666%;
+		height: 100%;
+		float: left;
+	}
+
+	.right {
+		background-color: $primary-blue;
+		width: 33.333%;
+		height: 100%;
+		float: left;
+	}
+
+	.login {
+		background: $white;
+		width: 400px;
+		padding: 1em;
+		position: absolute;
+		left: 66.666%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		border: 1px solid $primary-blue;
+		form {
+			label {
+				width: 100%;
+			}
+			input {
+				width: 100%;
+				display: block;
+				margin-top: .5em;
+			}
+			.btn {
+				background: $primary-orange;
+				color: $white;
+				display: block;
+				padding: .5em;
+				width: 100%;
+			}
+		}
+	}
+}
