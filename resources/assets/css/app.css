@@ -1,7 +1,7 @@
 /*
 Error: File to import not found or unreadable: node_modules/bootstrap-sass/assets/stylesheets/bootstrap.
-       Load path: /Applications/XAMPP/xamppfiles/htdocs/laravel/skatespot/resources/assets/sass
-        on line 9 of /Applications/XAMPP/xamppfiles/htdocs/laravel/skatespot/resources/assets/sass/app.scss
+       Load path: /Applications/MAMP/htdocs/skatespot/resources/assets/sass
+        on line 9 of /Applications/MAMP/htdocs/skatespot/resources/assets/sass/app.scss
 
 4: 
 5: // Variables
@@ -11,7 +11,7 @@ Error: File to import not found or unreadable: node_modules/bootstrap-sass/asset
 9: @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
 Backtrace:
-/Applications/XAMPP/xamppfiles/htdocs/laravel/skatespot/resources/assets/sass/app.scss:9
+/Applications/MAMP/htdocs/skatespot/resources/assets/sass/app.scss:9
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/import_node.rb:66:in `rescue in import'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/import_node.rb:45:in `import'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -49,4 +49,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: node_modules/bootstrap-sass/assets/stylesheets/bootstrap.\A        Load path: /Applications/XAMPP/xamppfiles/htdocs/laravel/skatespot/resources/assets/sass\A         on line 9 of /Applications/XAMPP/xamppfiles/htdocs/laravel/skatespot/resources/assets/sass/app.scss\A \A 4: \A 5: // Variables\A 6: @import \"variables\";\A 7: \A 8: // Bootstrap\A 9: @import \"node_modules/bootstrap-sass/assets/stylesheets/bootstrap\";"; }
+  content: "Error: File to import not found or unreadable: node_modules/bootstrap-sass/assets/stylesheets/bootstrap.\A        Load path: /Applications/MAMP/htdocs/skatespot/resources/assets/sass\A         on line 9 of /Applications/MAMP/htdocs/skatespot/resources/assets/sass/app.scss\A \A 4: \A 5: // Variables\A 6: @import \"variables\";\A 7: \A 8: // Bootstrap\A 9: @import \"node_modules/bootstrap-sass/assets/stylesheets/bootstrap\";"; }
